@@ -2,10 +2,8 @@
 .titleStyle {
   text-align: left;
   margin: 0.5em auto;
-  /*fontSize: 1.2em;*/
   color: #ff4800;
   font-weight: 300;
-  /*font-size: 0.875rem;*/
   padding-left: 10px;
   line-height: 1.75;
 }
@@ -82,7 +80,6 @@
 
 .columnDiv {
   background-color: #ffffffc4;
-  /*border: #ff4800cb solid 1px;*/
   border-radius: 0.25em;
   padding: 0.7em;
   display: flex;
@@ -102,13 +99,11 @@
 .bookingPageStyle {
   height: 480px;
   background-image: linear-gradient(to bottom, #ffdacb, #ffc1a8, #ff9e77, #ff4800);
-  /*background-image: linear-gradient(to bottom, #ffdacb, #ffc1a8, #ff9e77, #ff4800);*/
 }
 
 .centerBlock {
   height: 89%;
   margin: 0; /*0.5em 0.5em 0.5em 0.5em;*/
   padding: 0.5em 1em 0.5em 1em;
-  /*background-color: rgba(255, 255, 255, 0.26);*/
   background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.07), rgba(0, 0, 0, 0.05));
 }

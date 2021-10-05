@@ -13,6 +13,14 @@ const RoomDetails = () => {
   )
 }
 
+const BookingBtn = () => {
+  return (
+    <div style={{ flexGrow: "3", textAlign: "end"}}>
+      <button className="bookBtnStyle">Quick book</button>
+    </div>
+  )
+}
+
 const RoomBlock = ({roomTitle, availability}) => {
   return (
     <div className={"columnDiv"}>
@@ -22,10 +30,18 @@ const RoomBlock = ({roomTitle, availability}) => {
           <div className="availabilityP"><i>Available: {availability} min</i></div>
         </div>
         <RoomDetails></RoomDetails>
-        <div style={{ flexGrow: "3", textAlign: "end"/*, margin: "auto 0"*/}}>
-          <button className="bookBtnStyle">Quick book</button>
-        </div>
+        <BookingBtn></BookingBtn>
       </div>
+    </div>
+  )
+}
+
+const MenuBar = () => {
+  return (
+    <div className="menuPanelStyle">
+      <IconButton size="small" style={{ padding: "0" }}>
+        <MenuIcon className="burger"></MenuIcon>
+      </IconButton>
     </div>
   )
 }
@@ -43,9 +59,7 @@ const BookingPagev2 = () => {
           <RoomBlock roomTitle={"Joku huone"} availability="15"></RoomBlock>
         </div>
       </div>
-      <div className="menuPanelStyle">
-        <MenuIcon className="burger"></MenuIcon>
-      </div>
+      <MenuBar></MenuBar>
     </div>
   )
 }
