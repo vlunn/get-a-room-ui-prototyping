@@ -1,0 +1,36 @@
+
+#appStyle {
+  background-color: rgb(245,245,245);
+  text-align: center;
+  margin: auto 0;
+  padding: 5.8em 1em 8.4em 1em;
+}
+
+#titleStyle {
+  text-align: center;
+  margin: 1.5em 1em 24px;
+  /*fontSize: 1.2em;*/
+  color: darkgrey;
+}
+
+#buttongroupStyle {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  margin: 0 auto;
+}
+
+#confirmBtnStyle {
+  border: 1px #ff4800 solid;
+  border-radius: 0;
+  margin-bottom: 0.5em;
+  border-radius: 2px solid #2b2b2b;
+  color: #ff4800;
+}
+
+#skipBtnStyle {
+  background-color: white;
+  border: 1px white solid;
+  color: white;
+  background-color: #2b2b2b;
+}

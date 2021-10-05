@@ -1,0 +1,114 @@
+
+.titleStyle {
+  text-align: left;
+  margin: 0.5em auto;
+  /*fontSize: 1.2em;*/
+  color: #ff4800;
+  font-weight: 300;
+  /*font-size: 0.875rem;*/
+  padding-left: 10px;
+  line-height: 1.75;
+}
+
+.burger {
+  margin: 0.2em;
+  display: block;
+}
+
+.roomTitle {
+  margin: 0 auto;
+  color: black;
+  font-weight: 300;
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+.menuPanelStyle {
+  background-color: rgb(49, 49, 49);
+  padding: 0 0.2em;
+  width: 98%;
+  color: white;
+}
+
+.availabilityP {
+  color: rgb(83, 83, 83);
+  font-size: small;
+  font-weight: lighter;
+}
+
+.bookBtnStyle {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  width: max-content;
+
+  display: inline-flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  outline: currentcolor none 0px;
+  border: 0px none;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  /*line-height: 1.75;*/
+  line-height: 2em;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.roomSelection {
+  border-left: 1px solid #ffffffc4;
+  padding: 1px 0.2em 1px 0.5em;
+}
+
+.roomBlock {
+  display: flex;
+  margin: 0.25em 0 0 0;
+}
+
+.columnDiv {
+  background-color: #ffffffc4;
+  /*border: #ff4800cb solid 1px;*/
+  border-radius: 0.25em;
+  padding: 0.7em;
+  display: flex;
+  flex-direction: column;
+  margin: 0.25em 0 0 0;
+  padding-bottom: 0;
+}
+
+.detailsDiv {
+  text-align: center;
+}
+
+.detailsDiv>svg {
+  margin: 0;
+}
+
+.bookingPageStyle {
+  height: 480px;
+  background-image: linear-gradient(to bottom, #ffdacb, #ffc1a8, #ff9e77, #ff4800);
+  /*background-image: linear-gradient(to bottom, #ffdacb, #ffc1a8, #ff9e77, #ff4800);*/
+}
+
+.centerBlock {
+  height: 89%;
+  margin: 0; /*0.5em 0.5em 0.5em 0.5em;*/
+  padding: 0.5em 1em 0.5em 1em;
+  /*background-color: rgba(255, 255, 255, 0.26);*/
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.07), rgba(0, 0, 0, 0.05));
+}
