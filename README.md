@@ -1,3 +1,18 @@
+# Get started real quick with the app:
+
+1. (fork the repo)
+2. git clone
+3. Run `npm install`
+4. Run `npm start`
+5. In browser, go to `localhost:3000`
+6. dev tools -> set screen size to 320 x 480 pixels
+5. happy hacking!
+
+# Want to publish your edits?
+
+Feel free to make a pull request.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
